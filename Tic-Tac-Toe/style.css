@@ -43,7 +43,9 @@ h1 {
   display: block;
   margin: 0 auto;
 }
-.reset-btn:hover,
+.reset-btn:hover {
+  cursor: pointer;
+}
 .box:hover {
   cursor: pointer;
 }
