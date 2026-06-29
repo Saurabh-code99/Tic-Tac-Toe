@@ -33,10 +33,11 @@ h1 {
   margin: 1px;
   display: grid;
   place-items: center;
+  color: black;
 }
 .reset-btn {
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 10px 20px;
   background-color: blue;
   color: white;
@@ -48,4 +49,13 @@ h1 {
 }
 .box:hover {
   cursor: pointer;
+}
+.msg{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  color: green;
+}
+.hide{
+  display: none;
 }
